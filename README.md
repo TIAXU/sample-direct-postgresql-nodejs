@@ -1,4 +1,4 @@
-## Step 1: Create the PostgreSQL service instance.
+## Create the PostgreSQL service instance.
 Perform the following command:
 ```
 cf create-service postgresql v9.4-dev sapcpcfhw-db
@@ -6,7 +6,7 @@ cf create-service postgresql v9.4-dev sapcpcfhw-db
 For more information about this command, see the [documentation](https://docs.cloudfoundry.org/devguide/services/managing-services.html).
 
 
-## Step 3: Push to Cloud and run the service.
+## Push to Cloud and run the service.
 In the folder you cloned into, execute the `npm install` command.  
 Then perform the following command:
 ```
