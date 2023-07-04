@@ -40,5 +40,4 @@ SELECT * FROM <TABLE>;
 pg_dump -p 63306 -U <username> <dbname> > /c/dataexport/mydata.sql
 psql -p 63306 -U <username> -d <dbname> -c "COPY <tablename> TO stdout DELIMITER ',' CSV HEADER;" > /c/dataexport/<tablename>.csv
 ```
-For more information: 
-https://help.sap.com/viewer/6be7ed96ddeb4e158c2107c434142545/Cloud/en-US/7547876937594510aa13cfaf693d07b1.html
+For more information, see the [documentation](https://help.sap.com/viewer/6be7ed96ddeb4e158c2107c434142545/Cloud/en-US/7547876937594510aa13cfaf693d07b1.html)
