@@ -1,0 +1,18 @@
+{
+    "name": "SAP-CP-CF-HelloWorld",
+    "description": "Sample SAP-CP-CF Hello World Restful Service",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "^4",
+        "body-parser": "^1",
+        "pg-promise": "^11",
+        "@sap/xsenv": "^3"
+    },
+    "engines": {
+        "node": "14.x.x"
+    },
+    "scripts": {
+        "start": "node server.js"
+    }
+}
