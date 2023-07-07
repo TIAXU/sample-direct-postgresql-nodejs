@@ -1,6 +1,6 @@
 ---
 applications:
-- name: 2-sample-connect-pg
+- name: 2-sample-direct-postgresql-nodejs-srv
   path: .
   domain: practice.cn40.apps.platform.sapcloud.cn
   buildpack: nodejs_buildpack
