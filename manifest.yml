@@ -1,9 +1,9 @@
 ---
 applications:
-- name: sample-connect-pg
+- name: 2-sample-connect-pg
   path: .
   domain: practice.cn40.apps.platform.sapcloud.cn
   buildpack: nodejs_buildpack
-  memory: 128Mcf 
+  memory: 128M
   services:
   - devtoberfest-db
